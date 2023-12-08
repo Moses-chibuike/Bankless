@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../style";
-import { feedback,easypay } from "../constants";
+import { feedback,easypay, feedback2 } from "../constants";
 import { apple, robot,google,paper,paper2 } from "../assets";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { motion } from 'framer-motion';
@@ -81,7 +81,7 @@ const Home = () => {
     viewport={{ once: true, amount: 0.25 }}
   >
       <h2 className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-[#101010] font-larsseit  font-semibold tracking-wide justify-center`}>
-        Safe & Convenient Transaction
+        Services
       </h2></motion.div>
       <motion.div
     variants={sectionVariant}
@@ -155,6 +155,7 @@ accounts, credit cards, investments, and bills.
     </div>
    
   </section>
+
  </motion.div>
     {/* payments */}
     <motion.div
@@ -163,6 +164,56 @@ accounts, credit cards, investments, and bills.
       whileInView="show"
       viewport={{ once: true, amount: 0.45 }}
     >
+
+<section id="" className={`bg-[#eeedf0] block items-center py-14  max-ss:px-6 max-[1060px]:text-center`}>
+
+    <div className="" />
+
+    <div className="block justify-center items-center sm:mb-16 mb-6 relative z-[1] text-center">
+    <motion.div
+    variants={sectionVariant}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.25 }}
+  >
+      <h2 className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-[#101010] font-larsseit  font-semibold tracking-wide justify-center`}>
+        Safe & Convenient Transaction
+      </h2></motion.div>
+      <motion.div
+    variants={sectionVariant}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.25 }}
+  >
+      <div className="w-full md:mt-0 mt-6">
+        <p className={` font-larsseit max-lg:text-[14px] max-[1060px]:justify-center mt-5 text-[#10101088] tracking-wide`}>
+        Want to pay anything so easy with the touch of a finger. Through <br />
+BANKLESS, you can make practically any transaction.
+        </p>
+      </div></motion.div>
+    </div>
+    <motion.div
+    variants={sectionVariant}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.12 }}
+  >
+    {/* here..... */}
+    <div className="flex flex-wrap  justify-center  w-full feedback-container relative z-[1]">
+      {feedback2.map((card) => <FeedbackCard key={card.id} {...card} />)}
+    </div>
+    </motion.div>
+
+  </section>
+  
+{/* graph */}
+<motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.45 }}
+    ></motion.div>
+
     <section id="product" className=" flex items-center py-16 px-24 max-ss:px-6  justify-between   overflow-hidden max-[1060px]:flex-col-reverse ">
   
 

@@ -56,50 +56,141 @@ export const features = [
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
-];
+]
 
 export const feedback = [
   {
    
     id: "feedback-1",
     content:
-      "Shopping with BAKLESS is even more secure thanks to Buyer Protection.",
-    name: "Always Protected",
+      "Effortlessly send and receive payments securely with our intuitive platform.",
+    name: "Payment",
      img:shield,
   },
   {
     id: "feedback-2",
     content:
-      "You can keep using your favorite card and keepgetting rewards.",
-    name: "Get Reward",
+      "Stay connected seamlessly. Top up your mobile airtime instantly without stress. Never miss a call or message again.",
+    name: "Buy Airtime",
     img:cash,
   },
   {
 
     id: "feedback-3",
     content:
-      "You will only be charged when selling goods or requesting payment.",
-    name: "No Hidden Fees",
+      "Recharge your data balance effortlessly and enjoy uninterrupted browsing, streaming, and more.",
+    name: "Data",
     img:hand,
   },
   {
+    id: "feedback-4",
+    content:
+      "Take care of utilities, subscriptions, and more, all in one convenient place.",
+    name: "Pay Bills",
+    img:coin,
+  },
+  {
+    id: "feedback-5",
+    content:
+      " Effortless USD/NAIRA card services for secure transactions, inquiries, and accessibility.",
+    name: "Card Services",
+    img:coin,
+  },
+  {
+    id: "feedback-6",
+    content:
+      "Unlock asset potential with tailored, flexible loans secured by valuable holdings.",
+    name: "Credit ",
+    img:coin,
+  },
+  {
+    id: "feedback-7",
+    content:
+      "Transform real estate dreams with competitive loans, expert guidance, and confidence.",
+    name: "Real Estate Loan",
+    img:coin,
+  },
+  {
+    id: "feedback-8",
+    content:
+      "Simplify global finances with multi-currency savings for travel, investment, and diversification.",
+    name: "Banking",
+    img:coin,
+  },
+  {
+    id: "feedback-9",
+    content:
+      "Secure future with Fixed Returns, stable rates, predictable growth for confidence.",
+    name: "Fixed returns",
+    img:coin,
+  },
+  {
+    id: "feedback-10",
+    content:
+      "Explore High Returns Real Estate Investment in prime properties for growth.",
+    name: "High returns REI",
+    img:coin,
+  },
+  {
+    id: "feedback-11",
+    content:
+      "Diversify with REITs: Stable growth, fractional ownership, expert-managed properties, accessible investment.",
+    name: "REITs",
+    img:coin,
+  },
+  {
+    id: "feedback-12",
+    content:
+      "Explore stocks, global opportunities, user-friendly trading for growth and dividends.",
+    name: "Stocks",
+    img:coin,
+  },
+  
+  
+];
+
+export const feedback2 =[
+  {
+   
+    id: "feedback-1",
+    content:
+      "Shopping with us has never been so secured, and its all thanks to buyer protection.",
+    name: "Secure transactions",
+     img:shield,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "You stand a chance of getting rewards while using your favourite card.",
+    name: "Rewards",
+    img:cash,
+  },
+  {
+
     id: "feedback-3",
     content:
-      "Changed your mind after buying? Send back the item you purchased",
+      "Clients are only charged when they sell goods or request for payment.",
+    name: "No hiden charges",
+    img:hand,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "You can send back a bought item, if you ever change your mind after buying, and for free ",
     name: "Free shipping",
     img:coin,
   },
-];
+]
 export const easypay =[
       {
         imgg: globe,
-        title: "Globality",
-        contentt: "Send payments to the person in front of you and the rest of the world.",
+        title: "Nationwide",
+        contentt: "Send payment to anyone across Nigeria without stress.",
       },
       {
         imgg: bank,
         title: "Integrate",
-        contentt: "We work with Iocal banks and overseas banks so you don't have to worry.",
+        contentt: "We are compatile with local banks across Nigeria, so you don’t have anything to worry about ",
       },
 
 
