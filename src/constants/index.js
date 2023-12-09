@@ -7,7 +7,7 @@ export const navLinks = [
   },
   {
     id: "/Learn",
-    title: "Learn",
+    title: "Services",
   },
   {
     id: "/App",
@@ -15,11 +15,19 @@ export const navLinks = [
   },
   {
     id: "/Community",
-    title: "Community",
+    title: "Company",
   },
   {
     id: "/WalletechatWork",
-    title: "Bankless at Work",
+    title: "Contact",
+  },
+  {
+    id: "/WalletechatWork",
+    title: "Press",
+  },
+  {
+    id: "/WalletechatWork",
+    title: "About Us",
   },
 ];
 
