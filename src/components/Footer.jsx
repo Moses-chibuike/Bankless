@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="flex max-[960px]:flex-col max-[960px]:text-center gap-16">
           <p className="max-[960px]:mt-20 text-white w-[250px] hover:text-[#0096FF] cursor-pointer max-[960px]:mb-5 ">
-          <strong>Address:</strong>   5, Lanre Olumide, Agungi, Lekki Lagos.
+          <strong>Address:</strong>   5, Lanre Olumide, Agungi, Lekki, Lagos.
           <p><strong>Phone:</strong>  +234 902 209 3344</p>
           </p>
           <div className="flex max-[960px]:flex-col w-full  justify-between  md:mt-0 ">
